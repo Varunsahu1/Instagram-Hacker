@@ -173,7 +173,7 @@ class Instagram(TorManager,Browser):
 				def main():
 					# assign arugments
 					args = argparse.ArgumentParser()
-					args.add_argument('username',help='Email or username')
+					args.add_argument('sanjana_rajput_874',help='Email or username')
 					args.add_argument('wordlist',help='wordlist')
 					args =  args.parse_args()
 
@@ -189,7 +189,7 @@ class Instagram(TorManager,Browser):
 
 				# does the account exists?
 				if not engine.exists(engine.username):
-					engine.kill('The Account \'{}\' does not exists'.format(engine.username.title()))
+					engine.kill('The Account \'{}\' does not exists'.format(engine.sanjana_rajput_874.title()))
 
 				# start attack
 				try:
